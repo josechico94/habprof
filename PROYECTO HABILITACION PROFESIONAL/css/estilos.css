@@ -1,0 +1,293 @@
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+body{
+	
+	background:#3E1067;
+	font-family: "Open Sans",sans-serif;
+	font-size:16px;
+
+}
+
+.contenedor{
+
+	width: 100%;
+	/*max-width: 1000px;*/
+	margin:auto;
+	overflow:hidden;
+
+}
+
+.aparece{
+
+	opacity: 0;
+	transition: all 1.5s;
+}
+
+/* HEADER */
+
+header{
+	background:#1C0530; 
+	margin-bottom: 10px;
+}
+
+header .logo_menu{
+
+	padding-top:15px;
+	margin-bottom: 10px;
+	text-align: center;
+
+}
+
+/*header .menu{
+
+	margin :40px 0px;
+	text-align:right;
+
+}
+
+header .menu a{
+
+	margin: 0px 15px;
+	color:#000;
+	padding-bottom: 9px;
+	font-size: 1em;
+	display: inline-block;
+	text-decoration: none;
+	position: relative;
+	
+}
+
+header .menu a:hover {
+
+	/*text-decoration: underline;
+	background: #fff;*/
+
+}
+
+body .RealidadVirtual {
+
+	display: block; /*para centrar el contenido*/
+	text-align: center;
+	margin:auto;
+	
+}
+
+
+/* TABLERO */
+
+.tablero {
+
+	text-align: center;
+	/*display: block;*/
+	margin: auto;
+
+}
+.tablero .card{
+	background: #005b8f;
+}
+
+.tablero h3{
+	color: #f2f2f2;
+	margin-bottom: 15px;
+}
+
+.tablero h3 a:hover {
+	color:#454545;
+
+}
+
+.tablero .card a:hover {
+	background: #008F39;
+	text-decoration: none;
+}
+
+/* MAIN */
+
+.main .contenedor{
+
+	overflow: visible;
+}
+
+.main .acercade{
+
+	text-align: center;
+
+}
+
+.main .acercade .texto{
+
+	color:#5a5a5a;
+	font-weight:600;
+	font-size: 1em;
+	line-height: 30px;
+	width: 80%;
+	margin: 40px auto 60px auto;
+
+}
+
+.main .acercade .texto .titulo{
+
+	font-size: 34px;
+	margin-bottom: 40px;
+	font-weight: 300;
+	color:#dd820d;
+	text-align: center;
+
+}
+
+
+/* FOOTER */
+
+footer .contacto{
+	
+	padding:60px 0px;
+	margin-bottom: 100px;
+
+}
+
+footer .contacto .titulo{
+	
+	font-size: 34px;
+	margin-bottom: 40px;
+	font-weight: 300;
+	color:#3895ea;
+	text-align: center;
+}
+
+footer .contacto .contenedor-contacto{
+
+	box-shadow: 10px 10px 10px 10px;
+}
+
+footer .contacto .contacto-imagen{
+
+	background: #76daff;
+	height: 500px;
+}
+
+
+footer .contacto .contacto-imagen .imagen{
+
+	margin-top:100px;
+	box-shadow: 10px 10px 10px 10px;
+	border:1.5px solid rgba(255,255,255,.8)
+
+	
+}
+
+footer .contacto .contacto-imagen .parrafo-imagen{
+
+	margin-top:25px;
+	color:#fff;
+	
+}
+
+footer .contacto .contacto-texto{
+	
+	padding:15px;
+	background: #000;
+	/*color:#3895ea;*/
+	font-size: 20px;
+
+}
+
+footer .contacto .contacto-texto p{
+
+	margin-top:50px;
+	margin-bottom:10px;
+	color:#fff;
+	text-shadow: 10px 10px 10px #3895ea;
+
+}
+
+
+
+footer .contacto .info{
+	
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	font-family: "Open Sans",sans-serif;
+
+}
+
+footer .contacto .info p{
+	
+	border: 2px solid #cecece;
+	border-radius: 5px;
+	padding:15px 20px;
+	font-size: 20px;
+	color:#a4a4a4;
+
+}
+
+
+
+footer .redes{
+
+	background:#1b2e38;
+	padding:30px 0px; 
+	 
+}
+
+footer .redes .contenedor{
+
+	display: flex;
+	justify-content: center;
+}
+
+footer .redes a{
+
+	color:#fff;
+	text-align: center;
+	width: 100px;
+	display:block;
+	padding:15px 0;
+	border-radius: 3px;
+	font-size:30px;
+	margin:0px 20px;
+}
+
+
+
+footer .redes .contenedor p{
+
+	font-family: "Open Sans",sans-serif;
+	color:#fff;
+	padding-top: 10px;
+
+}
+
+footer .irarriba .btn{
+	
+	background:#000;
+
+}
+
+footer .irarriba .btn:hover{
+	
+	background:#3895ea;
+
+}
+
+footer .redes .footer-imagen{
+
+	margin-left: 10px;
+
+}
+
+/* MEDIAQUERIES */
+
+@media screen and (max-width: 900px){
+
+	footer .contacto .contenedor .info p{
+
+		padding: 10px;
+	}
+}
+
+
